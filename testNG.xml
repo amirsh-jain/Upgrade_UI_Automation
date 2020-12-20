@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LoanOffers">
+
+    <test name="LoanOffers">
+        <classes>
+           <class name="com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest" />
+        </classes>
+    </test>
+    
+</suite>

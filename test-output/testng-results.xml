@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18526" started-at="2020-12-19T20:07:42 PST" finished-at="2020-12-19T20:08:00 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18526" started-at="2020-12-19T20:07:42 PST" finished-at="2020-12-19T20:08:00 PST">
+      <class name="com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest">
+        <test-method status="PASS" signature="testGetLoanOffer()[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd]" name="testGetLoanOffer" duration-ms="10524" started-at="2020-12-19T20:07:42 PST" finished-at="2020-12-19T20:07:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoanOffer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd]" name="getResult" is-config="true" duration-ms="17" started-at="2020-12-19T20:07:52 PST" finished-at="2020-12-19T20:07:52 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetLoanOffer status=SUCCESS method=LoanOfferTest.testGetLoanOffer()[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testValidateLoanOffer()[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd]" name="testValidateLoanOffer" duration-ms="6844" started-at="2020-12-19T20:07:52 PST" depends-on-methods="com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest.testGetLoanOffer" finished-at="2020-12-19T20:07:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoanOffer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd]" name="getResult" is-config="true" duration-ms="1" started-at="2020-12-19T20:07:59 PST" finished-at="2020-12-19T20:07:59 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidateLoanOffer status=SUCCESS method=LoanOfferTest.testValidateLoanOffer()[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest@6c2ed0cd]" name="tearDown" is-config="true" duration-ms="1098" started-at="2020-12-19T20:07:59 PST" finished-at="2020-12-19T20:08:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.upgrade.uiautomation.UpgradeUIAutomation.test.LoanOfferTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
