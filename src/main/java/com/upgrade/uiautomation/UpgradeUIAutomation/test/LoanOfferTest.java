@@ -48,7 +48,6 @@ public class LoanOfferTest extends BasicSetup {
 
 
 		wait.explicitlyFor(offer.defaultLoan(), 10);
-		
 		offer.setLoanAmountValue(offer.loanAmount().getText());
 		offer.setLoanInterestRateValue(offer.loanInterestRate().getText());
 		offer.setLoanTermValue(offer.loanTerm().getText());
