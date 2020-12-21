@@ -49,5 +49,4 @@ Models contains representation of entities like Borrowers, Loan Offer etc.
 extentreports get generated as soon as the test are run. Test results are saved insidee `test-output` directory under root. 
 HTML file is generated for each run with prefix `testReport-` followed by date and time of the run. 
 
-
  
